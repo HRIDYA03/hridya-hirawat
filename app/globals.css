@@ -142,3 +142,21 @@ body {
     animation: none;
   }
 }
+@keyframes heroGlow {
+  0%,
+  100% {
+    text-shadow:
+      0 0 0 rgba(99, 102, 241, 0),
+      0 0 0 rgba(34, 211, 238, 0);
+  }
+
+  50% {
+    text-shadow:
+      0 0 30px rgba(99, 102, 241, 0.12),
+      0 0 60px rgba(34, 211, 238, 0.08);
+  }
+}
+
+.hero-name-glow {
+  animation: heroGlow 5s ease-in-out infinite;
+}

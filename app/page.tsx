@@ -491,12 +491,13 @@ useEffect(() => {
         tracking-[-0.07em]
       "
     >
-      <span className="block text-white">
+      <span className="hero-name-glow block text-white">
         HRIDYA
       </span>
 
       <span
         className="
+          hero-name-glow
           block
           bg-gradient-to-r
           from-indigo-400
