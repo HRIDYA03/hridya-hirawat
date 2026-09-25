@@ -709,7 +709,7 @@ useEffect(() => {
       
       {/* Image */}
       <img
-        src="/images/travel.png"
+        src="/images/travel.jpeg"
         alt="Travel"
         className="absolute inset-0 h-full w-full object-cover transition duration-700 ease-out group-hover:scale-105"
       />
@@ -1721,7 +1721,7 @@ useEffect(() => {
             <div className="relative min-h-[320px] overflow-hidden md:min-h-full">
 
               <img
-                src="/images/graduation.png"
+                src="/images/graduation.jpeg"
                 alt="Graduation"
                 className="absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-105"
               />
